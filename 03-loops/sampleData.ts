@@ -9,3 +9,11 @@ let average: number = 0;
 
 average = digit/numbers.length;
 console.log("average is "   + average);
+
+for(let digits of numbers){
+
+    digits += digits;
+    console.log("printing digits sum  ::: " + digits); //not adding all elements when using enhanced for loop....
+    
+}
+
