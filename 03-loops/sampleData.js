@@ -12,3 +12,8 @@ for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
     digits += digits;
     console.log("printing digits sum  ::: " + digits); //not adding all elements when using enhanced for loop....
 }
+var sports = ["basketball", "volleyball", "football", "cricket"];
+console.log("Sports list ::::: " + sports);
+sports.push("handball");
+sports.push("tennis");
+console.log("Updtaed Sports list ::::: " + sports);

@@ -17,3 +17,10 @@ for(let digits of numbers){
     
 }
 
+let sports: String[] = ["basketball","volleyball","football","cricket"];
+console.log("Sports list ::::: "  + sports);
+sports.push("handball");
+sports.push("tennis");
+console.log("Updtaed Sports list ::::: "  + sports);
+
+
