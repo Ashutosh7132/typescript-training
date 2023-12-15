@@ -1,4 +1,4 @@
-class student{
+export class student{
 
     constructor(private _firstName: String, private _lastName:String ){
 
